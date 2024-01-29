@@ -2,7 +2,7 @@ const express = require('express')
 const app = express();
 const PORT = 1000;
 
-
+app.use(express.json());
 
 
 app.listen(PORT,()=>{
